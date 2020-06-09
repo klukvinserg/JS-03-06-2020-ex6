@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+#selectForm {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+#selectBtn {
+    width: 15%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+select {
+    padding: 5px;
+    margin: 5px;
+}
+
+#chouseForm {
+    margin: auto;
+    margin-top: 30px;
+    width: 70%;
+}
+
+.check, label {
+    transform: scale(1.2);
+    margin: 3px;
+}
+
+#train {
+    border: 1px solid black;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#inner {
+    margin: 5px;
+    padding: 5px;
+}
+
+.wrapperDiv, .wrapperDivBottom {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#total {
+  display: flex;
+  margin-top: 20px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#sum {
+    font-weight: bolder;
+    font-size: larger;
+    margin-right: 20px;
+}
+
+#book {
+    padding: 8px;
+}
+
+.myBook {
+    margin: auto;
+    margin-top: 30px;
+    width: 70%;
+    text-align: right;
+}
+
+.myBookBtn {
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#resultTicket {
+    margin: auto;
+    margin-top: 30px;
+    width: 70%;
+    font-weight: bolder;
+    font-size: x-large;
+}

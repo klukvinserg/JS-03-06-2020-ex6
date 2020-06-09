@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex6</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body id="bodyId">
+    <div id="selectForm">
+      <div id="selectGroup">
+        <label for="selectOptionDirection"><b>Direction:</b></label>
+        <select name="selectDirection" id="selectOptionDirection">
+          <option value="direction1">Lviv - Odessa</option>
+          <option value="direction2">Lviv - Ternopil</option>
+        </select>
+      </div>
+      <div id="selectLesson">
+        <label for="selectOptionDate"><b>Date:</b></label>
+        <select name="selectDate" id="selectOptionDate">
+          <option value="date1">10.10.2020</option>
+          <option value="date2">20.11.2020</option>
+        </select>
+      </div>
+      <button id="selectBtn" onclick="clickSearch()">SEARCH</button>
+    </div>
+
+    <div id="chouseForm"></div>
+
+    <div class="myBook">
+      <button class="myBookBtn" onclick="bookingResult()">MY BOKING</button>
+    </div>
+
+    <div id="resultTicket"></div>
+      
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
